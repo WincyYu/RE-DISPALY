@@ -1,0 +1,1401 @@
+html, button, input, select, textarea {
+    font-family: 'Hiragino Sans GB', 'Microsoft Yahei UI', 'Microsoft Yahei', '寰蒋闆呴粦', 'Segoe UI', Tahoma, '瀹嬩綋b8b浣�', SimSun, sans-serif
+}
+
+body {
+    background-color: #f5f5f6;
+    margin: 0
+}
+
+a {
+    color: inherit
+}
+
+.read-count {
+    font-size: 14px;
+    padding: 20px 135px;
+    color: #9c9fa1
+}
+
+.commonCard {
+    box-sizing: border-box;
+    width: 1151px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    line-height: 1;
+    padding: 80px
+}
+
+.groupContent .commonCard {
+    padding: 36px 0
+}
+
+.imgTextRowItem {
+    padding: 36px 0;
+    border-bottom: 1px solid #f1f1f1
+}
+
+.imgTextRowItem:first-child {
+    border-top-width: 0;
+    padding-top: 0
+}
+
+.imgTextRowItem:last-child {
+    border-bottom-width: 0;
+    padding-bottom: 0
+}
+
+.imgTextRowItem:before, .imgTextRowItem:after {
+    display: table;
+    content: ""
+}
+
+.imgTextRowItem:after {
+    clear: both
+}
+
+.imgTextRowItem .imgTextRowItemImg {
+    float: left;
+    width: 232px;
+    height: 174px
+}
+
+.imgTextRowItem .imgTextRowItemImg img {
+    width: 100%;
+    height: 100%
+}
+
+.imgTextRowItem .imgTextRowItemContent {
+    float: right;
+    width: 720px;
+    position: relative
+}
+
+.imgTextRowItem .imgTextRowItemContent .imgTextRowItemTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #394043;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.imgTextRowItem .imgTextRowItemContent .imgTextRowItemInfo {
+    font-size: 14px;
+    color: #616669;
+    margin: 18px 0;
+    width: 542px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.imgTextRowItem .imgTextRowItemContent .imgTextRowItemInfo .imgTextRowItemIcon {
+    display: inline-block;
+    margin-right: 11px
+}
+
+.imgTextRowItem .imgTextRowItemContent .imgTextRowItemTags {
+    margin-top: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.imgTextRowItem .imgTextRowItemContent .imgTextRowItemTags span {
+    display: inline-block;
+    background-color: #f4f7f9;
+    color: #849aae;
+    font-size: 12px;
+    padding: 9px 11.5px;
+    margin-right: 9.5px
+}
+
+.schoolNameIcon {
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -258px -59px;
+    width: 14px;
+    height: 14px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .schoolNameIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.schoolUpIcon {
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -229px -59px;
+    width: 15px;
+    height: 14px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .schoolUpIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.middleSchoolIcon {
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -213px -59px;
+    width: 16px;
+    height: 14px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .middleSchoolIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.schoolPrice {
+    position: absolute;
+    right: 0;
+    top: 38px;
+    text-align: right
+}
+
+.schoolPrice .schoolTotalPrice {
+    font-size: 14px;
+    font-weight: bold;
+    color: #db4c3f
+}
+
+.schoolPrice .schoolTotalPrice .totalPriceNum {
+    font-size: 26px;
+    font-family: tahoma;
+    margin-right: 7px
+}
+
+.schoolPrice .schoolUnitPrice {
+    font-size: 12px;
+    color: #888c8e;
+    margin-top: 21px
+}
+
+.schoolPrice .schoolCount {
+    font-size: 14px;
+    color: #888c8e;
+    margin-top: 19px
+}
+
+.schoolPrice .schoolCount .countLink {
+    color: #394043;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.schoolListContent {
+    margin-right: -20px
+}
+
+.schoolListContent:before, .schoolListContent:after {
+    display: table;
+    content: ""
+}
+
+.schoolListContent:after {
+    clear: both
+}
+
+.schoolListContent .schoolItem {
+    float: left;
+    width: 232px;
+    margin-right: 20px
+}
+
+.schoolImg {
+    display: block;
+    height: 175px;
+    position: relative
+}
+
+.schoolImg img {
+    width: 100%;
+    height: 100%
+}
+
+.schoolImg .imgCover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 48%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8))
+}
+
+.schoolImg .schoolName {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    width: 195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold
+}
+
+.schoolInfo {
+    margin-top: 15px;
+    color: #616669;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.schoolInfo .starIcon {
+    display: inline-block;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -229px -59px;
+    width: 15px;
+    height: 14px;
+    margin-right: 11px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .schoolInfo .starIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.schoolTags {
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.schoolTags span {
+    display: inline-block;
+    background-color: #f4f7f9;
+    color: #849aae;
+    font-size: 12px;
+    padding: 9px 11.5px;
+    margin-right: 9.5px
+}
+
+.noImgTop {
+    background-color: #00ae66;
+    text-align: center;
+    padding-top: 93px;
+    padding-bottom: 77px;
+    margin-bottom: 25px;
+    -webkit-font-smoothing: antialiased
+}
+
+.noImgTop .title {
+    width: 688.5px;
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 46px;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.24)
+}
+
+.noImgTop .subTitle {
+    width: 688.5px;
+    margin: 0 auto;
+    color: #b7ddc6;
+    font-size: 16px;
+    margin-top: 22.5px
+}
+
+.top {
+    margin: 25px auto;
+    width: 1151px;
+    height: 500px;
+    position: relative
+}
+
+.top img {
+    width: 100%;
+    height: 100%
+}
+
+.top .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('img/pcCover.png') repeat-x
+}
+
+.top .content {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -496.5px;
+    line-height: 1;
+    width: 800px
+}
+
+.top .content .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px
+}
+
+.top .content .subTitle {
+    margin-top: 16px;
+    padding-bottom: 73px;
+    font-size: 18px;
+    color: #ccc
+}
+
+.topAndLogin {
+    background-color: #484a4b;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 590px;
+    margin-bottom: -75px;
+    position: relative
+}
+
+.topAndLogin .cover {
+    position: absolute;
+    background-color: #000;
+    opacity: .66;
+    filter: alpha(opacity=66);
+    width: 100%;
+    height: 100%
+}
+
+.topAndLogin .container {
+    position: relative;
+    width: 1151px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.topAndLogin .container .topHeader {
+    line-height: 68px
+}
+
+.topAndLogin .container .topHeader:before, .topAndLogin .container .topHeader:after {
+    display: table;
+    content: ""
+}
+
+.topAndLogin .container .topHeader:after {
+    clear: both
+}
+
+.topAndLogin .container .topHeader .left {
+    float: left;
+    height: 68px;
+    width: 191px;
+    text-align: center;
+    font-size: 0
+}
+
+.topAndLogin .container .topHeader .left .logo {
+    background-color: #00a863;
+    display: inline-block;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -180px 0;
+    width: 134px;
+    height: 59px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .topAndLogin .container .topHeader .left .logo {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.topAndLogin .container .topHeader .left .beike {
+    background-color: #3072f6;
+    display: inline-block;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: 0 -94px;
+    width: 134px;
+    height: 59px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .topAndLogin .container .topHeader .left .beike {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.topAndLogin .container .topHeader .right {
+    float: right;
+    height: 68px
+}
+
+.topAndLogin .container .topHeader .right a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none
+}
+
+.topAndLogin .container .topHeader .right .client {
+    display: inline-block;
+    margin-right: 34px
+}
+
+.topAndLogin .container .topHeader .right .client .phone {
+    display: inline-block;
+    vertical-align: -3px;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -199px -59px;
+    width: 14px;
+    height: 18px;
+    margin-right: 10px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .topAndLogin .container .topHeader .right .client .phone {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.topAndLogin .container .topHeader .right .login {
+    display: inline-block;
+    color: #fff
+}
+
+.topAndLogin .container .topHeader .right .login .personIcon {
+    display: inline-block;
+    vertical-align: -5px;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -180px -59px;
+    width: 19px;
+    height: 20px;
+    margin-right: 10px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .topAndLogin .container .topHeader .right .login .personIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.topAndLogin .container .topContent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 993px;
+    margin: 0 auto;
+    bottom: 134px
+}
+
+.topAndLogin .container .topContent .topTitle {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    width: 765px;
+    line-height: 44px
+}
+
+.topAndLogin .container .topContent .topSubTitle {
+    line-height: 1;
+    font-size: 19px;
+    margin-top: 22px;
+    color: #cccccc
+}
+
+.introduction {
+    width: 1151px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    line-height: 1;
+    padding-top: 75px;
+    padding-bottom: 62.5px;
+    position: relative
+}
+
+.introduction .container {
+    width: 993px;
+    margin: 0 auto
+}
+
+.introduction .container .title {
+    color: #444444;
+    font-size: 28px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #f1f1f1
+}
+
+.introduction .container .content {
+    margin-top: 22.5px;
+    color: #888888;
+    line-height: 26px;
+    font-size: 14px;
+    text-align: justify
+}
+
+.article {
+    width: 1151px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    position: relative
+}
+
+.article .content {
+    padding: 29px 0;
+    width: 993px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: justify;
+    word-break: break-all;
+    color: #333333
+}
+
+.article .content h1, .article .content h2, .article .content h3, .article .content h4, .article .content h5, .article .content h6 {
+    font-size: 20px;
+    color: #000;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 40px 0
+}
+
+.article .content p {
+    line-height: 28px;
+    margin: 24px 0
+}
+
+.article .content p img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%
+}
+
+.article .content ol, .article .content ul {
+    line-height: 28px
+}
+
+.article .content ol p, .article .content ul p {
+    margin: 0
+}
+
+.article .content a {
+    color: #2dc4ea
+}
+
+.group {
+    width: 1151px;
+    margin: 25px auto;
+    background-color: #ffffff;
+    line-height: 1;
+    position: relative
+}
+
+.group .groupContainer {
+    width: 993px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 50px
+}
+
+.group .groupContainer .groupTitle {
+    color: #333333;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #f1f1f1
+}
+
+.group .groupContainer .groupTitle a {
+    float: right;
+    font-size: 14px;
+    color: #999999;
+    line-height: 28px;
+    text-decoration: none
+}
+
+.group .groupContainer .groupContent > div {
+    width: 100%;
+    margin: 0;
+    border-top: solid 1px #f1f1f1;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.group .groupContainer .groupContent > div:first-child {
+    border-top: 0
+}
+
+.newHouse {
+    box-sizing: border-box;
+    width: 1151px;
+    margin: 25px auto;
+    padding: 40px 79px;
+    font-size: 0;
+    background-color: #ffffff;
+    line-height: 1;
+    position: relative
+}
+
+.newHouse img {
+    width: 250px;
+    height: 190px;
+    vertical-align: top
+}
+
+.newHouse .newHouseInfo {
+    display: inline-block;
+    margin-left: 36px;
+    height: 190px;
+    color: #666666
+}
+
+.newHouse .newHouseInfo .title {
+    color: #394043;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none
+}
+
+.newHouse .newHouseInfo .address {
+    margin-top: 20px;
+    font-size: 14px
+}
+
+.newHouse .newHouseInfo .area {
+    margin-top: 20px;
+    font-size: 14px
+}
+
+.newHouse .newHouseInfo .tag {
+    margin-top: 20px
+}
+
+.newHouse .newHouseInfo .tag span {
+    display: inline-block;
+    background-color: #f4f7f9;
+    color: #849aae;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 11.5px;
+    margin-right: 9.5px
+}
+
+.newHouse .newHouseInfo .type {
+    margin-top: 19px
+}
+
+.newHouse .newHouseInfo .type span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 29.5px;
+    padding: 0 11px;
+    margin-right: 10px
+}
+
+.newHouse .newHouseInfo .type .saleState {
+    color: #c7a446;
+    border: solid 1px #c7a446
+}
+
+.newHouse .newHouseInfo .type .houseType {
+    color: #4698c7;
+    border: solid 1px #4698c7
+}
+
+.newHouse .price {
+    float: right;
+    height: 190px;
+    line-height: 190px;
+    color: #333333;
+    font-size: 14px
+}
+
+.newHouse .price span {
+    color: #db4c3f;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 9px;
+    font-family: tahoma;
+    vertical-align: -1px
+}
+
+.opinions {
+    width: 1151px;
+    margin: 25px auto;
+    padding: 40px 0;
+    position: relative
+}
+
+.opinions .content {
+    background-color: #f6f6f7;
+    color: #888888;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 24px 100px;
+    text-align: center
+}
+
+.imgCard {
+    width: 1151px;
+    margin: 25px auto;
+    position: relative
+}
+
+.imgCard img {
+    width: 100%
+}
+
+.ershoufangCard {
+    box-sizing: border-box;
+    width: 1151px;
+    margin: 25px auto;
+    padding: 36px 79px;
+    position: relative;
+    line-height: 1;
+    background-color: #ffffff
+}
+
+.ershoufangCard .recommend {
+    background: rgba(237, 240, 243, 0.5);
+    border-radius: 5px;
+    word-wrap: break-word;
+    color: #849AAE;
+    font-size: 16px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-family: "PingFang-SC-Regular", Helvetica, "sans-serif";
+}
+.ershoufangCard .recommend ul {
+    padding: 15px 20px;
+}
+.ershoufangCard .recommend ul li {
+    margin-left: 18px;
+}
+
+.ershoufangCard:before, .ershoufangCard:after {
+    display: table;
+    content: ""
+}
+
+.ershoufangCard:after {
+    clear: both
+}
+/* 二手聚焦卡片标签 */
+.ershoufangCard .yishou,.ershoufangCard .shixiao{
+    display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40px;
+      height: 24px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+  }
+.ershoufangCard .yishou{
+    background: #FE615A;
+}
+.ershoufangCard .shixiao{
+    background: #9399A5;
+}
+.ershoufangCard .housePic {
+    display: inline-block;
+    position: relative;
+}
+.ershoufangCard .zaishou{
+    display: none;
+  }
+
+.ershoufangCard .housePic img {
+    width: 184px;
+    height: 139px
+}
+
+.ershoufangCard .infomation {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 32px;
+    color: #666666;
+    font-size: 14px;
+    width: 600px
+}
+
+.ershoufangCard .infomation .title {
+    display: block;
+    text-decoration: none;
+    color: #394043;
+    font-size: 22px;
+    font-weight: bold
+}
+
+.ershoufangCard .infomation .houseInfo {
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ershoufangCard .infomation .houseInfo .houseIcon {
+    display: inline-block;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -244px -59px;
+    width: 14px;
+    height: 14px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .ershoufangCard .infomation .houseInfo .houseIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.ershoufangCard .infomation .houseInfo .cutLine {
+    padding: 0 15px;
+    color: #cecece
+}
+
+.ershoufangCard .infomation .houseResblock {
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.ershoufangCard .infomation .houseAdd {
+    margin-top: 18px
+}
+
+.ershoufangCard .infomation .houseAdd .pointIcon {
+    display: inline-block;
+    background-image: url(sprite.png?t=1526891969274);
+    background-position: -180px -79px;
+    width: 13px;
+    height: 15px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+    .ershoufangCard .infomation .houseAdd .pointIcon {
+        background-image: url(sprite@2x.png);
+        background-size: 314px 153px
+    }
+}
+
+.ershoufangCard .infomation .houseAdd a {
+    color: #009de8
+}
+
+.ershoufangCard .infomation .houseAdd .cutLine {
+    padding: 0 15px
+}
+
+.ershoufangCard .infomation .houseTags {
+    margin-top: 18px
+}
+
+.ershoufangCard .infomation .houseTags span {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 12px;
+    background-color: #f4f7f9;
+    font-size: 12px;
+    color: #849aae
+}
+
+.ershoufangCard .price {
+    float: right;
+    height: 100%
+}
+
+.ershoufangCard .price .totalPrice {
+    margin-top: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #db4c3f;
+    text-align: right
+}
+
+.ershoufangCard .price .totalPrice .number {
+    font-family: 'Tahoma';
+    font-size: 30px;
+    margin-right: 6px;
+    vertical-align: -1px
+}
+
+.ershoufangCard .price .unitPrice {
+    margin-top: 14px;
+    font-size: 12px;
+    color: #aaaaaa
+}
+
+.qaCard, .baikeCard, .photoCard {
+    position: relative;
+    padding: 0 79px 0;
+    width: 993px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden
+}
+
+.qaCard .cardTitle, .baikeCard .cardTitle, .photoCard .cardTitle {
+    font-size: 28px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee
+}
+
+.qaCard .viewMore, .baikeCard .viewMore, .photoCard .viewMore {
+    color: #999;
+    float: right;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 100;
+    margin-top: 14px
+}
+
+.qaCard a {
+    text-decoration: none;
+    color: #394043
+}
+
+.qaCard .qaFeed {
+    position: relative;
+    padding: 30px 0;
+    border-bottom: 1px solid #eee
+}
+
+.qaCard .qaFeed:last-child {
+    border-bottom: none
+}
+
+.qaCard .clearfix:after {
+    content: "";
+    display: table;
+    height: 0;
+    clear: both
+}
+
+.qaCard .qaTitle {
+    height: 40px;
+    line-height: 25px;
+    overflow: hidden
+}
+
+.qaCard .qaContent {
+    margin-right: 150px
+}
+
+.qaCard .question {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.qaCard .qIcon, .qaCard .aIcon {
+    float: left;
+    font-family: "Avenir";
+    font-weight: 700;
+    background: url(img/qa.png);
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    margin-top: 4px
+}
+
+.qaCard .qIcon {
+    background-position: 0 0
+}
+
+.qaCard .aIcon {
+    background-position: 0 20px
+}
+
+.qaCard .qIcon {
+    color: #1ccbac
+}
+
+.qaCard .aIcon {
+    color: #e5e5e4
+}
+
+.qaCard .answer, .qaCard .question {
+    float: left;
+    width: 790px;
+    margin-left: 32px
+}
+
+.qaCard .question {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.qaCard .answer {
+    line-height: 24px;
+    color: #aaa
+}
+
+.qaCard .answerNum {
+    float: right;
+    width: 78px;
+    height: 78px;
+    background: #f4f7f9;
+    color: #849aae;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -39px
+}
+
+.qaCard .answerNum:hover {
+    background: #849aae;
+    color: #fff;
+    transition: all .2s cubic-bezier(.25, .1, .66, 1.44)
+}
+
+.qaCard .answerNum .num {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Tahoma"
+}
+
+.qaCard .answerTxt {
+    margin-top: 3px;
+    text-align: center;
+    font-size: 12px
+}
+
+.baikeCard a {
+    text-decoration: none
+}
+
+.baikeCard .baikeFeed {
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+    overflow: hidden
+}
+
+.baikeCard .baikeImg {
+    float: right
+}
+
+.baikeCard .leftPic .baikeImg {
+    float: left
+}
+
+.baikeCard .leftPic .baikeContent {
+    margin-right: 0;
+    margin-left: 214px
+}
+
+.baikeCard .baikeTitle {
+    color: #394043;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 16px;
+    line-height: 22px
+}
+
+.baikeCard .baikeContent {
+    margin-right: 230px
+}
+
+.baikeCard .baikeGuide {
+    display: block;
+    color: #aaa;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-size: 14px
+}
+
+.baikeCard .baikeFeed:last-child {
+    border-bottom: none
+}
+
+.baikeCard .baikeImg img {
+    width: 184px;
+    height: 138px
+}
+
+.baikeCard .cateTip {
+    background: #f4f7f9;
+    color: #849aae;
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 12px
+}
+
+.photoCard .photoList {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: -30px
+}
+
+.photoCard .photoFeed {
+    position: relative;
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 27px
+}
+
+.photoCard .photoFeed a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.photoCard .photoFeed .mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.photoCard .photoFeed:nth-child(4n) {
+    margin-right: 0
+}
+
+.photoCard .photoFeed img {
+    width: 227px;
+    height: 170px;
+    display: block
+}
+
+.photoCard .photoTitle {
+    position: absolute;
+    width: 184px;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 2px rgba(4, 0, 0, 0.2)
+}
+.vr-card {
+    margin: 29.00705645px auto;
+    width: 1151px;
+    height: 417.7016129px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 21px rgba(20, 16, 45, 0.09);
+}
+.vr-card .border .content {
+    padding: 34.80846774px 0;
+}
+.vr-card .border .content .background-img {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.vr-card .border .content .background-img .clip {
+    margin: 0 auto;
+    width: 1081.38306452px;
+    height: 348.08467742px;
+    overflow: hidden;
+}
+.vr-card .border .content .background-img .clip img {
+    width: 1081.38306452px;
+    position: relative;
+    top: -100%;
+}
+.vr-card .border .desc {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    bottom: 0;
+    left: 34.80846774px;
+    width: 1081.38306452px;
+    height: 174.04233871px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.vr-card .border .desc .info,
+.vr-card .border .desc .logo {
+    display: inline-block;
+    text-decoration: none;
+}
+.vr-card .border .desc .info div,
+.vr-card .border .desc .logo div,
+.vr-card .border .desc .info p,
+.vr-card .border .desc .logo p,
+.vr-card .border .desc .info img,
+.vr-card .border .desc .logo img {
+    display: inline-block;
+}
+.vr-card .border .desc .info {
+    margin-left: 17.40423387px;
+}
+.vr-card .border .desc .info p {
+    letter-spacing: 4.35105847px;
+    color: #FFF;
+    font-size: 34.80846774px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-family: "PingFang-SC-Regular", Helvetica, "sans-serif";
+    margin-bottom: 24.36592742px;
+    margin-right: 23.20564516px;
+}
+.vr-card .border .desc .logo img {
+    margin-right: 17.40423387px;
+    margin-bottom: 6.96169355px;
+    width: 104.42540323px;
+    height: 104.42540323px;
+}
+.fixed-bottom-img {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    max-height: 10vh;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+}
+.fixed-bottom-img img {
+    width: 100%;
+    max-height: 10vh;
+}
+.beikeErshoufangCardPC {
+  width: 1151px;
+  margin: 0 auto;
+  padding: 36px 79px;
+  position: relative;
+  line-height: 1;
+  box-sizing: border-box;
+  border-top: solid 1px #f1f1f1;
+  background: #fff;
+}
+.beikeErshoufangCardPC .ershoufangContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.beikeErshoufangCardPC .ershoufangLink {
+  text-decoration: none;
+  color: #101D37;
+}
+.beikeErshoufangCardPC .imgWrapper {
+  padding-right: 32px;
+  position: relative;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.beikeErshoufangCardPC .imgWrapper .housePic {
+  width: 184px;
+  height: 139px;
+}
+.beikeErshoufangCardPC .imgWrapper .biaoqian {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 24px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+}
+.beikeErshoufangCardPC .imgWrapper .sold {
+  background: #FE615A;
+}
+.beikeErshoufangCardPC .imgWrapper .suspend {
+  background: #9399A5;
+}
+.beikeErshoufangCardPC .infomation {
+  white-space: nowrap;
+  /*overflow: hidden;*/
+
+  font-size: 11px;
+  width: 202px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 32px;
+  color: #666666;
+  font-size: 14px;
+  width: 600px;
+}
+.beikeErshoufangCardPC .infomation .title {
+  display: block;
+  text-decoration: none;
+  color: #394043;
+  font-size: 22px;
+  font-weight: bold;
+}
+.beikeErshoufangCardPC .infomation .houseInfo {
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.beikeErshoufangCardPC .infomation .houseTags {
+  margin-top: 18px;
+}
+.beikeErshoufangCardPC .infomation .houseTags span {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 12px;
+  background-color: #f4f7f9;
+  font-size: 12px;
+  color: #849aae;
+}
+.beikeErshoufangCardPC .price {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+.beikeErshoufangCardPC .price .totalPrice {
+  margin-top: 45px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #db4c3f;
+  text-align: right;
+}
+.beikeErshoufangCardPC .price .unit {
+  margin: 0 0 0 6px;
+  font-size: 12px;
+}
+.beikeErshoufangCardPC .price .unitPrice {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #aaaaaa;
+  text-align: right;
+}
+  
